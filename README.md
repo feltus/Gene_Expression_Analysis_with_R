@@ -8,11 +8,11 @@ In this assignment, you will apply the R programming skills you've learned throu
 # Learning Objectives
 By completing this assignment, you will:
 
-*Practice accessing and downloading genomic data from public repositories
-*Apply data manipulation techniques using dplyr
-*Perform statistical analysis on gene expression data
-*Create informative visualizations using ggplot2
-*Interpret biological significance from computational results
+* Practice accessing and downloading genomic data from public repositories
+* Apply data manipulation techniques using dplyr
+* Perform statistical analysis on gene expression data
+* Create informative visualizations using ggplot2
+* Interpret biological significance from computational results
 
 # Instructions
 
