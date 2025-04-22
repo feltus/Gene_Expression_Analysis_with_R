@@ -170,35 +170,35 @@ ggplot(pca_df, aes(x = PC1, y = PC2, label = tissue)) +
 ```
 
 # Deliverables
-R script containing all your code, well-documented with comments
-R Markdown file that includes:
-Introduction explaining your research question and approach
-Methods describing your data acquisition and analysis steps
-Results section with statistics and visualizations
-Discussion interpreting your findings
-Conclusion summarizing key insights
-PDF or HTML output of your R Markdown file
+* R script containing all your code, well-documented with comments
+* R Markdown file that includes:
+* Introduction explaining your research question and approach
+* Methods describing your data acquisition and analysis steps
+* Results section with statistics and visualizations
+* Discussion interpreting your findings
+* Conclusion summarizing key insights
+* PDF or HTML output of your R Markdown file
 
 # Evaluation Criteria
-Correct implementation of data retrieval from ENSEMBL (15%)
-Appropriate data preprocessing and exploration (20%)
-Sound statistical analysis (25%)
-Quality of visualizations (25%)
-Code organization, documentation, and reproducibility (15%)
+* Correct implementation of data retrieval from ENSEMBL (15%)
+* Appropriate data preprocessing and exploration (20%)
+* Sound statistical analysis (25%)
+* Quality of visualizations (25%)
+* Code organization, documentation, and reproducibility (15%)
 
 # Suggested Extensions (for extra credit)
-Integrate pathway analysis using the clusterProfiler package
-Add Gene Ontology enrichment for your differentially expressed genes
-Create an interactive visualization using plotly
-Compare your findings with published literature on the genes you selected
+* Integrate pathway analysis using the clusterProfiler package
+* Add Gene Ontology enrichment for your differentially expressed genes
+* Create an interactive visualization using plotly
+* Compare your findings with published literature on the genes you selected
 
 # Submission Instructions
-Submit your R script and R Markdown files through Canvas
-Due date: See syllabus
-Late submissions will be subject to the policy in the syllabus.
+* Submit your R script and R Markdown files through Canvas
+* Due date: See syllabus
+* Late submissions will be subject to the policy in the syllabus.
 
 # Resources
-ENSEMBL API documentation: https://www.ensembl.org/info/data/api.html
-biomaRt vignette: https://bioconductor.org/packages/release/bioc/vignettes/biomaRt/inst/doc/biomaRt.html
-ggplot2 documentation: https://ggplot2.tidyverse.org/
-dplyr cheatsheet: https://github.com/rstudio/cheatsheets/blob/main/data-transformation.pdf
+* ENSEMBL API documentation: https://www.ensembl.org/info/data/api.html
+* biomaRt vignette: https://bioconductor.org/packages/release/bioc/vignettes/biomaRt/inst/doc/biomaRt.html
+* ggplot2 documentation: https://ggplot2.tidyverse.org/
+* dplyr cheatsheet: https://github.com/rstudio/cheatsheets/blob/main/data-transformation.pdf
