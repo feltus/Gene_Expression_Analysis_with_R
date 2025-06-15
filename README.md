@@ -2,6 +2,8 @@
 
 # Programming Assignment: ENSEMBL Gene Expression Analysis with R
 
+### Total Points: 100
+
 # Overview
 In this assignment, you will apply the R programming skills you've learned through the Data Carpentry curriculum to analyze and visualize gene expression data from ENSEMBL. You will download a dataset, perform statistical analysis, and create meaningful visualizations to interpret the results.
 
