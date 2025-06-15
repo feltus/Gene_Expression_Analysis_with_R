@@ -172,14 +172,13 @@ ggplot(pca_df, aes(x = PC1, y = PC2, label = tissue)) +
 ```
 
 # Deliverables
-* R script containing all your code, well-documented with comments
-* R Markdown file that includes:
-* Introduction explaining your research question and approach
-* Methods describing your data acquisition and analysis steps
-* Results section with statistics and visualizations
-* Discussion interpreting your findings
-* Conclusion summarizing key insights
-* PDF or HTML output of your R Markdown file
+1. R script containing all your code, well-documented with comments
+2. R Markdown file that includes:
+- Introduction explaining your research question and approach
+- Methods describing your data acquisition and analysis steps
+- Results section with statistics and visualizations
+- Discussion interpreting your findings
+- Conclusion summarizing key insights
 
 # Evaluation Criteria
 * Correct implementation of data retrieval from ENSEMBL (15%)
@@ -188,14 +187,8 @@ ggplot(pca_df, aes(x = PC1, y = PC2, label = tissue)) +
 * Quality of visualizations (25%)
 * Code organization, documentation, and reproducibility (15%)
 
-# Suggested Extensions (for extra credit)
-* Integrate pathway analysis using the clusterProfiler package
-* Add Gene Ontology enrichment for your differentially expressed genes
-* Create an interactive visualization using plotly
-* Compare your findings with published literature on the genes you selected
-
 # Submission Instructions
-* Submit your R script and R Markdown files through Canvas
+* Submit your R script and R Markdown files through Canvas in a single double compressed (tar + gzip = tarball).
 * Due date: See syllabus
 * Late submissions will be subject to the policy in the syllabus.
 
