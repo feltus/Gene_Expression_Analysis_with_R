@@ -189,7 +189,6 @@ ggplot(pca_df, aes(x = PC1, y = PC2, label = tissue)) +
 
 # Submission Instructions
 * Submit your R script and R Markdown files through Canvas in a single double compressed (tar + gzip = tarball).
-* Due date: See syllabus
 * Late submissions will be subject to the policy in the syllabus.
 
 # Resources
