@@ -1,6 +1,6 @@
 # Gene_Expression_Analysis_with_R
 
-# Programming Assignment: ENSEMBL Gene Expression Analysis with R
+# Computational Assignment: ENSEMBL Gene Expression Analysis with R
 
 ### Total Points: 100
 
