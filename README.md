@@ -16,7 +16,7 @@ By completing this assignment, you will:
 
 # Instructions
 
-# Part 1: Data Acquisition (15 points)
+# Part 1: Data Acquisition
 Use the biomaRt package to access the ENSEMBL database, retrieve gene expression data for a set of genes across different tissues in humans, and create a well-structured dataframe from the retrieved data.
 
 ```
@@ -56,8 +56,7 @@ gene_ids <- getBM(attributes = c("ensembl_gene_id", "hgnc_symbol"),
 # Now retrieve expression data
 # Note: You'll need to retrieve appropriate data from ENSEMBL
 ```
-# Part 2: Data Preprocessing and Exploration (25 points)
-
+# Part 2: Data Preprocessing and Exploration
 Clean and restructure your data as needed, create summary statistics for gene expression across tissues, identify genes with high variability across tissues, and handle missing values appropriately.
 
 ```
@@ -85,7 +84,7 @@ expression_summary <- expression_data %>%
 head(expression_summary, 5)
 ```
 
-# Part 3: Statistical Analysis (30 points)
+# Part 3: Statistical Analysis
 Perform appropriate statistical tests to compare gene expression between tissues, identify significantly differentially expressed genes, calculate correlations between gene expression patterns, and create a heatmap of gene expression correlation.
 
 ```
@@ -117,7 +116,7 @@ gene_expression_wide <- expression_data %>%
 correlation_matrix <- cor(gene_expression_wide[,-1], use = "complete.obs")
 ```
 
-# Part 4: Data Visualization (30 points)
+# Part 4: Data Visualization
 Create boxplots showing expression distribution across tissues for top genes, generate a heatmap of gene expression patterns, create a PCA plot to visualize relationships between tissues based on gene expression, and make your visualizations publication-ready with proper labels and formatting.
 
 ```
