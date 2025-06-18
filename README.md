@@ -1,5 +1,3 @@
-# Gene_Expression_Analysis_with_R
-
 # Computational Assignment: ENSEMBL Gene Expression Analysis with R
 
 # Overview
