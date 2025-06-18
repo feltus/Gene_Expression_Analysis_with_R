@@ -185,9 +185,3 @@ ggplot(pca_df, aes(x = PC1, y = PC2, label = tissue)) +
 # Submission Instructions
 * Submit your R script and R Markdown files through Canvas in a single double compressed (tar + gzip = tarball).
 * Late submissions will be subject to the policy in the syllabus.
-
-# Resources
-* ENSEMBL API documentation: https://www.ensembl.org/info/data/api.html
-* biomaRt vignette: https://bioconductor.org/packages/release/bioc/vignettes/biomaRt/inst/doc/biomaRt.html
-* ggplot2 documentation: https://ggplot2.tidyverse.org/
-* dplyr cheatsheet: https://github.com/rstudio/cheatsheets/blob/main/data-transformation.pdf
